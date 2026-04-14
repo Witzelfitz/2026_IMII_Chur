@@ -3,22 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cocktail API</title>
+    <title>Cocktail API – IMII Chur</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+
     <header>
-      <h1>Vorlage für interaktive Medien II</h1>
+      <nav>
+        <span class="nav-logo">🍹 Cocktail API</span>
+        <span class="nav-meta">IMII · Chur · 2026</span>
+      </nav>
     </header>
+
     <main>
-      <h2>Main Content</h2>
-      <p>This is the main content of the page.</p>
-      <p>Hallo Beni.</p>
-      <p>Hallo Wolfgang.</p>
+
+      <section class="hero">
+        <div class="hero-content">
+          <p class="hero-label">Interaktive Medien II</p>
+          <h1>Cocktails auf Knopfdruck</h1>
+          <p class="hero-sub">
+            Entdecke tausende Rezepte, filtere nach Zutat und lass dich
+            von zufälligen Drinks inspirieren – direkt aus der
+            CocktailDB API.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary">Drink entdecken</button>
+            <button class="btn btn-ghost">Zur Dokumentation</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="glass">
+            <div class="liquid"></div>
+            <div class="ice"></div>
+            <div class="straw"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature-card">
+          <span class="feature-icon">🔍</span>
+          <h3>Suche</h3>
+          <p>Finde jeden Cocktail nach Name oder Hauptzutat.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🎲</span>
+          <h3>Zufalls-Drink</h3>
+          <p>Lass dich überraschen – ein neuer Favorit wartet.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">📋</span>
+          <h3>Rezepte</h3>
+          <p>Zutaten, Mengen und Zubereitung auf einen Blick.</p>
+        </div>
+      </section>
+
     </main>
+
     <footer>
-      <p>This is the footer of the page.</p>
+      <p>Projekt von <strong>Beni</strong> &amp; <strong>Wolfgang</strong> · IMII Chur 2026</p>
     </footer>
+
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
