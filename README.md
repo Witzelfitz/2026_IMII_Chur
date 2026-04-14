@@ -1,3 +1,3 @@
 # 2026_IMII_Chur
 
-## Halo Beni.
+## Hallo Beni.
